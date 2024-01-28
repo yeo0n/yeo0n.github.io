@@ -15,7 +15,8 @@
   animation-delay: 0.15s;
 
   @include breakpoint($x-large) {
-    max-width: $max-width;
+    /*max-width: $max-width;*/
+    max-width: 1600px;
   }
 }
 
@@ -44,7 +45,8 @@ body {
 
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width});
-    padding-right: $right-sidebar-width;
+    /*padding-right: $right-sidebar-width;*/
+    padding-right: 0px;
   }
 
   .page__inner-wrap {

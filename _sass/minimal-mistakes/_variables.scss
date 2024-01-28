@@ -17,6 +17,7 @@ $serif: Georgia, Times, serif !default;
 $sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+$font: "Pretendard-Regular" !default;
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
@@ -150,6 +151,7 @@ $medium-wide: 900px !default;
 $large: 1024px !default;
 $x-large: 1280px !default;
 $max-width: $x-large !default;
+/*$max-width: 1890px !default;*/
 
 /*
    Grid
