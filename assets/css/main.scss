@@ -7,7 +7,10 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-
+.page__title a {
+    color: aqua;
+    text-decoration: none
+}
 @media(min-width: 64em) {
     .sidebar {
         float:left;
@@ -16,4 +19,5 @@ search: false
         -webkit-transition: opacity .2s ease-in-out;
         transition: opacity .2s ease-in-out
     }
+
 }
