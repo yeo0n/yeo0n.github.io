@@ -1,11 +1,11 @@
 ---
-title: "News"
+title: "SYSTEM-write-up"
 layout: archive
-permalink: /News
+permalink: /SYSTEM-write-up
 author_profile: true
 sidebar:
     nav: "docs"
 ---
 
-{% assign posts = site.categories.News %}
+{% assign posts = site.categories.SYSTEM-write-up %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

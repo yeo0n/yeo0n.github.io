@@ -32,7 +32,7 @@
       /* calculate height of nav list
          viewport height - nav height - masthead x-padding
       */
-      max-height: calc(100vh - #{$nav-height} - 2em);
+      max-height: calc(100vh - #{$nav-height} - 10em);
     }
   }
 
@@ -57,7 +57,8 @@
   p,
   li {
     font-family: $sans-serif;
-    font-size: $type-size-6;
+    /*font-size: $type-size-6;*/
+    font-size: .83em;
     line-height: 1.5;
   }
 
@@ -134,7 +135,7 @@
   }
 
   img {
-    max-width: 200px;
+    max-width: 236px;
     border-radius: 5%;
 
     @include breakpoint($large) {

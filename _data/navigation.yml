@@ -13,24 +13,65 @@ docs:
       - title: "WEB-write-up"
         url: /WEB-write-up
         category: WEB-write-up
-      - title: "WEB-Study"
-        url: /study
+      - title: "WEB-study"
+        url: /WEB-study
+        category: WEB-study
+
   - title: "SYSTEM"
     children:
-      - title: "System-Writeup"
-        url: /system_writeup
-      - title: "System-Study"
-        url: /study
-  - title: "Mobile"
+      - title: "SYSTEM-write-up"
+        url: /SYSTEM-write-up
+        category: SYSTEM-write-up
+      - title: "SYSTEM-study"
+        url: /SYSTEM-study
+        category: SYSTEM-study
+
+  - title: "MOBILE"
     children:
       - title: "Android"
-        url: /android
+        url: /Android
+        cateogry: Android
       - title: "iOS"
         url: /iOS
+        category: iOS
+
+  - title: "NETWORK"
+    children:
+      - title: "NETWORK-study"
+        url: /NETWORK-study
+        category: NETWORK-study
+  
+  - title: "OS"
+    children:
+      - title: "Windows"
+        url: /Windows
+        category: Windows
+      - title: "Linux"
+        url: /Linux
+        category: Linux
+
   - title: "Security News"
     children:
       - title: "News"
-        url: /news
+        url: /News
+        category: News
+
+  - title: "Programming"
+    children:
+      - title: "C"
+        url: /C
+        category: C
+      - title: "Python"
+        url: /Python
+        category: Python
+      - title: "Java"
+        url: /Java
+        category: Java
+      - title: "Git"
+        url: /Git
+        category: Git
+
+
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
