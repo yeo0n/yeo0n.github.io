@@ -11,15 +11,7 @@ search: false
     color: aqua;
     text-decoration: none
 }
-@media(min-width: 64em) {
-    .sidebar {
-        float:left;
-        width: calc(300px - 1em);
-        opacity: 1;
-        -webkit-transition: opacity .2s ease-in-out;
-        transition: opacity .2s ease-in-out
-    }
-}
+
 @media (min-width: 64em) {
     .page {
         float: right;
