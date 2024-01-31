@@ -8,8 +8,36 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 .page__title a {
-    color: aqua;
+    color: #f5b360;
     text-decoration: none
+}
+
+a {
+    text-decoration: none
+}
+
+.page__taxonomy-item-category {
+    display: inside;
+    margin-right: 5px;
+    margin-bottom: 8px;
+    padding: 3px 8px;
+    text-decoration: none;
+    border: 1px solid #373C3F;
+    border-radius: 4px;
+    background-color: #31333C;
+    color: #BFBCC2;
+}
+
+.page__taxonomy-item-tag {
+    display: inside;
+    margin-right: 5px;
+    margin-bottom: 8px;
+    padding: 3px 8px;
+    text-decoration: none;
+    border: 1px solid #373C3F;
+    border-radius: 4px;
+    background-color: #31333C;
+    color: #BFBCC2;
 }
 
 @media (min-width: 64em) {
@@ -50,6 +78,8 @@ height: 100%;
 border: 0;
 }
 
-
+.greedy-nav .visible-links a:hover {
+    color: #fff; /* 텍스트 색상을 원하는 색상으로 변경하세요 */
+}
 
 
