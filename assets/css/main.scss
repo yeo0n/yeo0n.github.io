@@ -20,3 +20,36 @@ search: false
     }
 }
 
+div.highlighter-rouge, figure.highlight {
+    position: relative;
+    margin-bottom: 1em;
+    background: #263238;
+    color: #eff;
+    font-family: Monaco,Consolas,"Lucida Console",monospace;
+    font-size: 0.8em;
+    line-height: 1.4;
+    border-radius: 4px;
+}
+.utterances {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.utterances-frame {
+color-scheme: light;
+position: absolute;
+left: 0;
+right: 0;
+width: 1px;
+min-width: 100%;
+max-width: 100%;
+height: 100%;
+border: 0;
+}
+
+
+
+
