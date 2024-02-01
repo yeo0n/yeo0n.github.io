@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "ko-KR"
 title                    : "YeonJun Blog"
 title_separator          : "-"
-subtitle                 : "Today I Learned‍ 🌙" # site tagline that appears below site title in masthead
+subtitle                 : "" # site tagline that appears below site title in masthead
 name                     : "YeonJun"
 description              : #"YeonJun의 블로그입니다."
 url                      : "https://yeo0n.github.io"
@@ -107,7 +107,7 @@ author:
   name             : "박연준"
   avatar           : "/assets/images/비버사진.png"
   bio              : "안녕하세요 :)"
-  location         : "South Korea"
+  location         : "Republic of Korea"
   email            : 
   links:
     - label: "Email"
