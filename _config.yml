@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "박연준"
-  avatar           : "/assets/images/비버노트북.png"
+  avatar           : "/assets/images/비버사진.png"
   bio              : "안녕하세요 :)"
   location         : "South Korea"
   email            : 
@@ -218,7 +218,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 7 # amount of posts to show
 paginate_path: /page:num/
 timezone: #Asia/Seoul
 

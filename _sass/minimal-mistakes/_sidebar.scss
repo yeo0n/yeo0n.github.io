@@ -32,7 +32,7 @@
       /* calculate height of nav list
          viewport height - nav height - masthead x-padding
       */
-      max-height: calc(90vh - #{$nav-height} - 2em);
+      max-height: calc(100vh - #{$nav-height} - 2em);
     }
   }
 
@@ -135,11 +135,15 @@
   }
 
   img {
-    max-width: 236px;
-    border-radius: 5%;
+    border-radius: 100%;
+    max-width: 150px;
+    align-items: center;
+    background-attachment: fixed;
+    margin-top: 25px;
+    margin-bottom: 10px;
 
     @include breakpoint($large) {
-      padding: 0px;
+      padding: 1px;
       border: 1px solid $border-color;
     }
   }

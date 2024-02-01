@@ -115,7 +115,7 @@ body {
   p,
   li,
   dl {
-    font-size: 0.85em;
+    font-size: 1em;
   }
 
   /* paragraph indents */
@@ -147,6 +147,7 @@ body {
     font-size: 0.85em;
     background: $code-background-color;
     border-radius: $border-radius;
+    color: red;
 
     &::before,
     &::after {

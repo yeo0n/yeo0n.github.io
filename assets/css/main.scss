@@ -8,7 +8,7 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 .page__title a {
-    color: #f5b360;
+    color: #fff;
     text-decoration: none
 }
 
@@ -55,7 +55,7 @@ div.highlighter-rouge, figure.highlight {
     color: #eff;
     font-family: Monaco,Consolas,"Lucida Console",monospace;
     font-size: 0.8em;
-    line-height: 1.4;
+    line-height: 1.8;
     border-radius: 4px;
 }
 .utterances {

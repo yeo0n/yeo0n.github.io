@@ -243,7 +243,7 @@
         left: 0;
         bottom: 0;
         height: 4px;
-        background: $primary-color;
+        /*background: $primary-color;*/
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;
@@ -442,7 +442,7 @@
   font-size: 1.25rem;
 
   a {
-    color: #FFECCC;
+    color: #fff;
   }
 
   .active {
@@ -513,12 +513,12 @@
   border-radius: $border-radius;
   -webkit-box-shadow: $box-shadow;
   box-shadow: $box-shadow;
-  font-size: 1.5em;
+  font-size: 1.2em;
 
   .nav__title {
     color: #fff;
     /*font-size: $type-size-6;*/
-    font-size: 0.63em;
+    font-size: 0.8em;
     background: $primary-color;
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;

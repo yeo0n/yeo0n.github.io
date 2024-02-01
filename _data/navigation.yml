@@ -56,7 +56,7 @@ docs:
         url: /News
         category: News
 
-  - title: "Programming"
+  - title: "개발"
     children:
       - title: "C"
         url: /C
