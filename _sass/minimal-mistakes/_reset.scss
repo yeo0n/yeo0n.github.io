@@ -34,12 +34,12 @@ body { margin: 0; }
 
 ::-moz-selection {
   color: #fff;
-  background: #2c3e50;
+  background: rgba(68,68,85,.7);
 }
 
 ::selection {
   color: #fff;
-  background: #2c3e50;
+  background: rgba(68,68,85,.7);
 }
 
 /* Display HTML5 elements in IE6-9 and FF3 */

@@ -148,7 +148,8 @@ body {
     background: $code-background-color;
     border-radius: $border-radius;
     color: #FF0000;
-    font-weight: 700;
+    font-weight: 500;
+    font-family: 'Pretendard-Regular';
 
     &::before,
     &::after {
