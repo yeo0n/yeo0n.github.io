@@ -147,7 +147,8 @@ body {
     font-size: 1em;
     background: $code-background-color;
     border-radius: $border-radius;
-    color: red;
+    color: #FF0000;
+    font-weight: 700;
 
     &::before,
     &::after {

@@ -7,6 +7,14 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
 .page__title a {
     color: #fff;
     text-decoration: none
@@ -53,9 +61,9 @@ div.highlighter-rouge, figure.highlight {
     margin-bottom: 1em;
     background: #1b1922;
     color: #eff;
-    font-family: Monaco,Consolas,"Lucida Console",monospace;
-    font-size: 0.8em;
-    line-height: 1.8;
+    font-family: $customFont,Consolas,"Lucida Console",monospace;
+    font-size: 1em;
+    line-height: 2.2;
     border-radius: 4px;
 }
 .utterances {
