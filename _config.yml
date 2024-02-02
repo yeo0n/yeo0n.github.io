@@ -296,6 +296,9 @@ defaults:
       toc_label: 목차
       sidebar:
         nav: "docs"
+      header:
+        overlay_image: https://www.notion.so/images/page-cover/nasa_robert_stewart_spacewalk_2.jpg
+        overlay_filter: 0.5
   # _pages
   - scope:
       path: "_pages"
@@ -306,5 +309,8 @@ defaults:
       commnet: true
       sidebar:
         nav: "docs"
+      header:
+        overlay_image: https://www.notion.so/images/page-cover/nasa_robert_stewart_spacewalk_2.jpg
+        overlay_filter: 0.5
   
 date_format: "%Y-%m-%d"

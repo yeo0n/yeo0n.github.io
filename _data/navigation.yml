@@ -13,6 +13,7 @@ docs:
       - title: "WEB-write-up"
         url: /WEB-write-up
         category: WEB-write-up
+        icon: "fas fa-info-circle"
       - title: "WEB-study"
         url: /WEB-study
         category: WEB-study
