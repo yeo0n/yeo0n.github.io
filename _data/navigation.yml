@@ -31,7 +31,8 @@ docs:
     children:
       - title: "Android"
         url: /Android
-        cateogry: Android
+        category: Android
+
       - title: "iOS"
         url: /iOS
         category: iOS
@@ -71,6 +72,11 @@ docs:
       - title: "Git"
         url: /Git
         category: Git
+  - title: "etc"
+    children:
+      - title: "etc"
+        url: /etc
+        category: etc
 
 
   # - title: "About"
