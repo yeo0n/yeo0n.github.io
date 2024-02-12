@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "[DIVA] Input Validation Issues - Part 3"
+title: "[DIVA] Input Validation Issues - Part 3 test"
 date: 2024-02-08 18:19 +0900
 categories: 
     - Android
