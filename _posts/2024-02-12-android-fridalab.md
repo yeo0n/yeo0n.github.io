@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "FridaLab 풀이"
+title: "FridaLab 풀이1"
 date: 2024-02-12 15:54 +0900
 categories: 
     - Android
