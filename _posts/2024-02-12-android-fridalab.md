@@ -5,7 +5,7 @@ date: 2024-02-12 15:54 +0900
 categories: 
     - Android
 tag: 
-typora-root-url: ../
+#typora-root-url: ../
 toc: true
 toc_sticky: true
 toc_label: 목차
