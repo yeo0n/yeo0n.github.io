@@ -3,8 +3,8 @@ layout: single
 title: "Windows Memory Layout"
 date: 2024-07-11 23:30 +0900
 categories: 
-    - SYSTEM-study
-tag:
+    - Windows
+tag: Windows
 typora-root-url: ../
 toc: true
 toc_sticky: true
