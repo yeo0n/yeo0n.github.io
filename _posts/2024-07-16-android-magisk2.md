@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Magisk 루팅 및 인증서 설치 세팅"
+title: "Magisk로 루팅, SSL인증서, Frida, 디컴파일 세팅"
 date: 2024-07-16 23:16 +0900
 categories: 
     - Android
