@@ -51,7 +51,13 @@ docs:
       - title: "Linux"
         url: /Linux
         category: Linux
-
+  
+  - title: "DATABASE"
+    children:
+      - title: "Database"
+        url: /Database
+        category: Database
+  
   - title: "Security News"
     children:
       - title: "News"

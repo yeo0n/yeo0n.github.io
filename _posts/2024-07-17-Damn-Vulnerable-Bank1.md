@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Damn Vulnerable-Bank 설치"
+title: "Damn Vulnerable-Bank 설치 / 루팅,frida 탐지 우회"
 date: 2024-07-17 22:05 +0900
 categories: 
     - Android
@@ -165,6 +165,6 @@ frida -H 127.0.0.1:1337 -f com.app.damnvulnerablebank -l scripts/script.js
 ![image-20240721213312435](/images/2024-07-17-Damn-Vulnerable-Bank1/image-20240721213312435.png)
 
 <br>
-그럼 다음과 같이 Damn Vulnerable Bank 앱이 잘 설치된 것을 확인할 수 있다.
+그럼 다음과 같이 Damn Vulnerable Bank 앱이 잘 열리는 것을 확인할 수 있다.
 
 ![image-20240721213329952](/images/2024-07-17-Damn-Vulnerable-Bank1/image-20240721213329952.png)
