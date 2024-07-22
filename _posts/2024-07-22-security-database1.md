@@ -3,8 +3,8 @@ layout: single
 title: 데이터베이스 - 시큐리티아카데미 11일차 
 date: 2024-07-22 21:58 +0900
 categories: 
-    - News
-#tag: News
+    - Database
+#tag: Database
 typora-root-url: ../
 toc: true
 toc_sticky: true
