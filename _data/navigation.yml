@@ -42,6 +42,12 @@ docs:
       - title: "NETWORK-study"
         url: /NETWORK-study
         category: NETWORK-study
+
+  - title: "CLOUD"
+    children:
+      - title: "CLOUD-study"
+        url: /CLOUD-study
+        category: CLOUD-study
   
   - title: "OS"
     children:
