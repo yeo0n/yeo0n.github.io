@@ -9,11 +9,11 @@ typora-root-url: ../
 toc: true
 toc_sticky: true
 toc_label: 목차
+published : false
 author_profile: true
 comment: true
 sidebar:
     nav: "docs"
-published: flase
 
 ---
 

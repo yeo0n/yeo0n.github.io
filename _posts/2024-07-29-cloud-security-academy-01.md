@@ -13,7 +13,7 @@ author_profile: true
 comment: true
 sidebar:
     nav: "docs"
-published: flase
+published : false
 ---
 
 ## AWS 클라우드 - 시큐리티아카데미 16일차
