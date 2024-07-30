@@ -13,8 +13,6 @@ author_profile: true
 comment: true
 sidebar:
     nav: "docs"
-published : false
-
 ---
 
 ## 데이터베이스

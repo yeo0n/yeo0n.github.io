@@ -13,7 +13,6 @@ author_profile: true
 comment: true
 sidebar:
     nav: "docs"
-published : false
 
 ---
 

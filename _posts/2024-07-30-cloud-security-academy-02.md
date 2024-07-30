@@ -9,7 +9,6 @@ typora-root-url: ../
 toc: true
 toc_sticky: true
 toc_label: 목차
-published : false
 author_profile: true
 comment: true
 sidebar:
@@ -77,7 +76,7 @@ sidebar:
 
   - 보안그룹 설정
 
-  - amazon linux라면 후에 ssh로 접속할 때 ec2-user 이름으로 로그인하기 
+  - amazon linux라면 후에 ssh로 접속할 때 ec2-user 이름으로 로그인하기(Ubuntu는 사용자이름 ubuntu)
 
   - windows는 putty로 접속 가능
 
@@ -101,7 +100,7 @@ sidebar:
 
 #### VPC 설정
 
-- 이를 하는 이유는 조금 더 안전하게 private 환경에 접속하기 위해서 동일한 AZ 가용 공간 내에서 두 개의 인스턴스가 하나는 퍼블릭, 하나는 프라이빗으로 존재해서 인터넷 게이트웨이랑 EIP, NATGW, 서브넷 등을 설정해줌으로써 퍼블릭 서버로 키페어를 scp 명령어를 이용해 보낸 후 이 키페어를 이용해 프라이빗서버로 ssh 접속할 수 있음 
+- 이를 하는 이유는 조금 더 보안적으로 안전하고 AWS 리소스간 허용을 최소화하고 그룹별로 손쉽게 네트워크를 구성하기 위해 사용한다. private 환경에 접속하기 위해서 동일한 AZ 가용 공간 내에서 두 개의 인스턴스가 하나는 퍼블릭, 하나는 프라이빗으로 존재해서 인터넷 게이트웨이랑 EIP, NATGW, 서브넷 등을 설정해줌으로써 퍼블릭 서버로 키페어를 scp 명령어를 이용해 보낸 후 이 키페어를 이용해 프라이빗서버로 ssh 접속할 수 있음 
 
   - \## VPC
 
@@ -213,12 +212,8 @@ sidebar:
 
     ​	- cd Downloads
 
-    ​	- scp -i AWS_2.pem AWS_2.pem ec2-user@13.125.99.83:/home/ec2-user
-
-    ​	//10.0.1.36
-
-     
+    ​	- scp -i AWS_2.pem AWS_2.pem ec2-user@{퍼블릭IP}:/home/ec2-user
 
     ​	- chmod 600 AWS_2.pem
 
-    ​	- ssh -i AWS_2.pem 10.0.4.196
+    ​	- ssh -i AWS_2.pem {프라이빗IP}
