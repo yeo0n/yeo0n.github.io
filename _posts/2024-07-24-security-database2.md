@@ -13,6 +13,8 @@ author_profile: true
 comment: true
 sidebar:
     nav: "docs"
+published: flase
+
 ---
 
 ## 데이터베이스
