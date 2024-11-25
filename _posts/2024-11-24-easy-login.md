@@ -23,13 +23,13 @@ sidebar:
 
 문제에 접속해보면 ID, PW, OTP를 입력하는 폼이 존재한다.
 
-<img src="../images/2024-11-24-easy-login/image-20241124221037265.png" alt="image-20241124221037265" style="zoom: 50%;" />
+<img src="/images/2024-11-24-easy-login/image-20241124221037265.png" alt="image-20241124221037265" style="zoom:50%;" />
 
 <br>
 
 소스 코드를 살펴보면 index.php와 login.php가 존재한다. `/login.php`에 들어가보면 index.php로 리다이렉션 되는 것으로 보아 login.php에서는 동작만 수행하고 index로 리다이렉션 시켜주는 것 같다.
 
-<img src="../images/2024-11-24-easy-login/image-20241124221317721.png" alt="image-20241124221317721" style="zoom:50%;" />
+<img src="/images/2024-11-24-easy-login/image-20241124221317721.png" alt="image-20241124221317721" style="zoom:50%;" />
 
 <br>
 
@@ -198,4 +198,4 @@ print(response.text)
 
 아래와 같이 flag를 잘 획득한 것을 볼 수 있다.
 
-![image-20241125001604037](../images/2024-11-24-easy-login/image-20241125001604037.png)
+![image-20241125001604037](/images/2024-11-24-easy-login/image-20241125001604037.png)
