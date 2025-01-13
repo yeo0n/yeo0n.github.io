@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "[Dreamhack] safe input write-up"
-date: 2024-01-13 23:00 +0900
+date: 2025-01-13 23:00 +0900
 categories: 
     - WEB-write-up
 tag:
