@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "[Lord of SQLInjection] darkelf write-up"
-date: 2025-04-21 01:14 +0900
+date: 2025-04-23 01:14 +0900
 categories: 
     - WEB-write-up
 tag:

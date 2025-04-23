@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "[Lord of SQLInjection] wolfman write-up"
-date: 2025-04-21 00:39 +0900
+date: 2025-04-23 00:39 +0900
 categories: 
     - WEB-write-up
 tag:
