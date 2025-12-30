@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "안드로이드 "
+title: "안드로이드 4대 컴포넌트 & 액티비티 생명주기"
 date: 2025-12-30 23:16 +0900
 categories: 
     - Android
