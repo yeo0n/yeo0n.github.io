@@ -19,11 +19,13 @@ sidebar:
 
 <br>
 
-### 문제 설명
+### 😁 문제 설명
 
 - First Android Application Project
 
 <br>
+
+### ✏️ 풀이
 
 mobilehacking.kr의 처음 문제인 ProjectApp을 선택해보자.
 
